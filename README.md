@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ScholarFlow
 
-## Getting Started
+AI-Native Research Workspace for literature review, knowledge synthesis and evidence-grounded scientific writing.
 
-First, run the development server:
+ScholarFlow is a research-focused workspace that combines retrieval, knowledge organization, agent workflows and structured writing into a unified experience.
+
+---
+
+## Overview
+
+Modern research workflows are fragmented across search engines, PDFs, notes and writing tools.
+
+ScholarFlow explores a different approach:
+
+- Retrieve literature
+- Organize evidence
+- Build knowledge structures
+- Generate research outputs
+- Preserve accumulated knowledge across research sessions
+
+The goal is to transform research from isolated tasks into a persistent workflow.
+
+---
+
+## Features
+
+### Interactive Research Workspace
+
+Visualize how an AI research agent plans tasks, retrieves information and synthesizes knowledge.
+
+### Research Workflow Demonstration
+
+Follow a complete research lifecycle:
+
+1. Research Question
+2. Evidence Collection
+3. Knowledge Accumulation
+4. Knowledge Graph Construction
+5. Insight Synthesis
+6. Research Output
+
+### Knowledge Graph Architecture
+
+Explore how memory, retrieval and evidence interact within a research system.
+
+### Evidence-Grounded Writing
+
+Generate structured outputs supported by traceable evidence.
+
+---
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+---
+
+## Project Structure
+
+```text
+app/
+├─ components/
+│  ├─ Hero.tsx
+│  ├─ WorkspacePreview.tsx
+│  ├─ DemoCaseSection.tsx
+│  ├─ ResearchOutput.tsx
+│  ├─ ArchitectureSection.tsx
+│  ├─ Footer.tsx
+│  └─ Reveal.tsx
+│
+└─ page.tsx
+```
+
+---
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+### v1
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Product showcase
+- Research workflow demonstration
+- Architecture visualization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### v2
 
-## Deploy on Vercel
+- Interactive knowledge graph
+- Research object management
+- Multi-session memory
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### v3
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Agent-powered research automation
+- Persistent research memory
+- Research workspace collaboration
+
+---
+
+## Status
+
+Current Version:
+
+```text
+v1.0 Launch Candidate
+```
+
+Production build:
+
+```text
+✓ Next.js Build Passed
+✓ TypeScript Passed
+✓ Static Export Ready
+```
+
+---
+
+## License
+
+MIT License
+
+---
+
+Built with Next.js and TypeScript.
