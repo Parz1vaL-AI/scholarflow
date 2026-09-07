@@ -11,11 +11,11 @@ const metrics = [
 ];
 
 const flowSteps = [
-  "MemGPT",
-  "GraphRAG",
-  "Voyager",
+  "Literature",
+  "Evidence",
+  "Insights",
   "Knowledge Graph",
-  "Survey Draft",
+  "Research Output",
 ];
 
 export default function ResearchObjectSection() {
@@ -29,7 +29,7 @@ export default function ResearchObjectSection() {
             </p>
 
             <h2 className="mt-4 text-4xl font-bold tracking-tight md:text-5xl">
-              The central unit of persistent research
+              The central unit of scientific research
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
@@ -59,7 +59,7 @@ export default function ResearchObjectSection() {
                   </div>
 
                   <div className="mt-3 text-3xl font-bold tracking-tight">
-                    Memory-Augmented Agents
+                     AI-Native Research Workspace
                   </div>
                 </div>
 
@@ -91,10 +91,10 @@ export default function ResearchObjectSection() {
                 </div>
 
                 <p className="mt-3 text-sm leading-7 text-gray-300">
-                  This research object investigates how
-                  memory-augmented agents improve long-horizon
-                  reasoning through retrieval, persistent memory
-                  and knowledge accumulation.
+                  This research object accumulates literature,
+                  evidence, insights and generated outputs into
+                  a unified research workflow for scientific
+                  knowledge synthesis.
                 </p>
               </div>
             </motion.div>
@@ -117,7 +117,7 @@ export default function ResearchObjectSection() {
                   </div>
 
                   <div className="mt-3 text-2xl font-bold tracking-tight">
-                    Persistent accumulation flow
+                    Research lifecycle
                   </div>
                 </div>
 
