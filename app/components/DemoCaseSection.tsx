@@ -21,8 +21,8 @@ export default function DemoCaseSection() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-400">
-              Explore how ScholarFlow investigates a real research problem,
-              accumulates evidence and generates evidence-grounded knowledge.
+              Explore how ScholarFlow transforms fragmented literature,
+              evidence and notes into structured scientific knowledge.
             </p>
 
           </div>
@@ -42,8 +42,8 @@ export default function DemoCaseSection() {
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                How do memory-augmented agents improve
-                long-horizon reasoning performance?
+                How can AI systems improve literature review,
+                evidence synthesis and scientific knowledge discovery?
               </p>
 
             </div>
@@ -61,10 +61,10 @@ export default function DemoCaseSection() {
               </h3>
 
               <div className="mt-4 space-y-2 text-sm text-gray-400">
-                <div>MemGPT (2024)</div>
-                <div>GraphRAG (2024)</div>
-                <div>Voyager (2023)</div>
-                <div>Reflexion (2023)</div>
+                <div>Research Paper A</div>
+                <div>Research Paper B</div>
+                <div>Research Paper C</div>
+                <div>Research Paper D</div>
               </div>
 
             </div>
@@ -82,9 +82,8 @@ export default function DemoCaseSection() {
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                Compare memory architectures,
-                retrieval strategies and reasoning
-                capabilities across studies.
+                Compare findings, methodologies and evidence
+                across multiple studies.
               </p>
 
             </div>
@@ -102,9 +101,8 @@ export default function DemoCaseSection() {
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                Connect concepts, evidence,
-                methods and findings into a
-                persistent research graph.
+                Connect concepts, evidence and insights
+                into a structured research graph.
               </p>
 
             </div>
@@ -122,9 +120,8 @@ export default function DemoCaseSection() {
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                Identify recurring patterns
-                and key findings across
-                memory-augmented agent systems.
+                Identify recurring patterns and generate
+                high-confidence scientific insights.
               </p>
 
             </div>
@@ -138,13 +135,12 @@ export default function DemoCaseSection() {
               </div>
 
               <h3 className="mt-4 text-xl font-semibold">
-                Survey Draft
+                Research Output
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                Generate an evidence-grounded
-                research report with citations
-                and traceable reasoning.
+                Generate evidence-grounded reports,
+                literature reviews and survey drafts.
               </p>
 
             </div>
@@ -160,38 +156,35 @@ export default function DemoCaseSection() {
             </div>
 
             <h3 className="mt-4 text-3xl font-bold">
-              Memory-Augmented Agents Improve Long-Horizon Reasoning
+              Scientific Knowledge Emerges Through Evidence Synthesis
             </h3>
 
             <p className="mt-6 max-w-4xl text-lg leading-8 text-gray-700">
-              Across recent studies including MemGPT,
-              GraphRAG, Voyager and Reflexion,
-              memory-augmented agents consistently
-              outperform context-only systems in
-              multi-session reasoning, knowledge reuse
-              and long-horizon task execution.
+              Across multiple research studies, evidence synthesis reveals
+              relationships and recurring patterns that are difficult to
+              identify from individual papers alone.
 
-              Knowledge graphs further strengthen
-              evidence traceability and persistent
-              research accumulation.
+              By integrating literature retrieval, cross-paper analysis,
+              knowledge graphs and scientific writing, ScholarFlow transforms
+              fragmented research activities into a unified research workflow.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
-                MemGPT
+                Literature Review
               </span>
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
-                GraphRAG
+                Evidence Synthesis
               </span>
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
-                Voyager
+                Knowledge Graph
               </span>
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
-                Reflexion
+                Scientific Writing
               </span>
 
             </div>
