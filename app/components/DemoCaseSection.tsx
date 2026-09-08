@@ -38,12 +38,13 @@ export default function DemoCaseSection() {
               </div>
 
               <h3 className="mt-4 text-xl font-semibold">
-                Research Question
+                Research Object Created
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                How can AI systems improve literature review,
-                evidence synthesis and scientific knowledge discovery?
+                Create a research object that becomes
+                the central workspace for literature,
+                evidence and generated knowledge.
               </p>
 
             </div>
@@ -54,6 +55,26 @@ export default function DemoCaseSection() {
 
               <div className="text-sm text-gray-400">
                 STEP 02
+              </div>
+
+              <h3 className="mt-4 text-xl font-semibold">
+                Agent Planning
+              </h3>
+
+              <p className="mt-4 text-sm leading-7 text-gray-400">
+                The agent decomposes the research task
+                and plans retrieval, analysis and writing
+                strategies.
+              </p>
+
+            </div>
+
+            {/* STEP 03 */}
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+
+              <div className="text-sm text-gray-400">
+                STEP 03
               </div>
 
               <h3 className="mt-4 text-xl font-semibold">
@@ -69,25 +90,6 @@ export default function DemoCaseSection() {
 
             </div>
 
-            {/* STEP 03 */}
-
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
-
-              <div className="text-sm text-gray-400">
-                STEP 03
-              </div>
-
-              <h3 className="mt-4 text-xl font-semibold">
-                Cross-Paper Analysis
-              </h3>
-
-              <p className="mt-4 text-sm leading-7 text-gray-400">
-                Compare findings, methodologies and evidence
-                across multiple studies.
-              </p>
-
-            </div>
-
             {/* STEP 04 */}
 
             <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
@@ -97,12 +99,13 @@ export default function DemoCaseSection() {
               </div>
 
               <h3 className="mt-4 text-xl font-semibold">
-                Knowledge Graph
+                Evidence Extraction
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                Connect concepts, evidence and insights
-                into a structured research graph.
+                Key findings, methods and conclusions
+                are extracted and structured as
+                reusable evidence.
               </p>
 
             </div>
@@ -116,12 +119,13 @@ export default function DemoCaseSection() {
               </div>
 
               <h3 className="mt-4 text-xl font-semibold">
-                Evidence Synthesis
+                Knowledge Graph Update
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                Identify recurring patterns and generate
-                high-confidence scientific insights.
+                Evidence is connected into a growing
+                research graph that persists across
+                research sessions.
               </p>
 
             </div>
@@ -139,8 +143,9 @@ export default function DemoCaseSection() {
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-gray-400">
-                Generate evidence-grounded reports,
-                literature reviews and survey drafts.
+                Generate literature reviews, reports
+                and drafts grounded in accumulated
+                evidence.
               </p>
 
             </div>
@@ -156,27 +161,32 @@ export default function DemoCaseSection() {
             </div>
 
             <h3 className="mt-4 text-3xl font-bold">
-              Scientific Knowledge Emerges Through Evidence Synthesis
+              Research Becomes a Continuously Improving Process
             </h3>
 
             <p className="mt-6 max-w-4xl text-lg leading-8 text-gray-700">
-              Across multiple research studies, evidence synthesis reveals
-              relationships and recurring patterns that are difficult to
-              identify from individual papers alone.
+              ScholarFlow transforms isolated research
+              activities into a persistent workflow
+              where literature, evidence and generated
+              outputs accumulate around the same
+              research object.
 
-              By integrating literature retrieval, cross-paper analysis,
-              knowledge graphs and scientific writing, ScholarFlow transforms
-              fragmented research activities into a unified research workflow.
+              <br />
+              <br />
+
+              Each interaction contributes to a growing
+              body of structured knowledge that can be
+              reused, verified and expanded over time.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
-                Literature Review
+                Research Object
               </span>
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
-                Evidence Synthesis
+                Agent Workflow
               </span>
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
@@ -184,7 +194,7 @@ export default function DemoCaseSection() {
               </span>
 
               <span className="rounded-full bg-gray-100 px-4 py-2 text-sm">
-                Scientific Writing
+                Evidence Traceability
               </span>
 
             </div>

@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import WorkspacePreview from "./components/WorkspacePreview";
 import DemoCaseSection from "./components/DemoCaseSection";
 import ResearchOutput from "./components/ResearchOutput";
-import ArchitectureSection from "./components/ArchitectureSection";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -66,7 +65,6 @@ export default function Home() {
         <WorkspacePreview />
         <DemoCaseSection />
         <ResearchOutput />
-        <ArchitectureSection />
         <Footer />
       </main>
     </>

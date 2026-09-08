@@ -63,56 +63,152 @@ export default function WorkspacePreview() {
 
             <div className="grid gap-8 lg:grid-cols-3">
 
-              {/* Literature */}
+              {/* Research Library */}
 
               <div className="rounded-2xl border p-6">
 
                 <div className="text-sm font-medium text-gray-500">
-                  USER QUERY
+                  RESEARCH LIBRARY
                 </div>
 
-                <div className="mt-4 rounded-xl bg-gray-100 p-4 text-sm">
-                  How do memory-augmented agents improve
-                  long-term reasoning performance?
+                <div className="mt-6 space-y-3 text-sm">
+
+                  <div className="rounded-lg bg-gray-100 p-3">
+                    ✓ MemGPT (2024)
+                  </div>
+
+                  <div className="rounded-lg bg-gray-100 p-3">
+                    ✓ GraphRAG (2024)
+                  </div>
+
+                  <div className="rounded-lg bg-gray-100 p-3">
+                    ✓ Voyager (2023)
+                  </div>
+
+                  <div className="rounded-lg bg-gray-100 p-3">
+                    ✓ Reflexion (2023)
+                  </div>
+
+                  <div className="rounded-lg bg-gray-100 p-3">
+                    ✓ AutoGen (2024)
+                  </div>
+
+                </div>
+
+                <div className="mt-8 rounded-xl bg-black p-4 text-white">
+
+                  <div className="text-xs uppercase tracking-wide text-gray-400">
+                    Library Status
+                  </div>
+
+                  <div className="mt-3 flex justify-between text-sm">
+                    <span>12 Papers</span>
+                    <span>53 Evidence Nodes</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+              {/* Research Object */}
+
+              <div className="rounded-2xl border p-6">
+
+                <div className="text-sm font-medium text-gray-500">
+                  RESEARCH OBJECT
+                </div>
+
+                <div className="mt-6 rounded-xl bg-gray-50 p-5">
+
+                  <div className="text-xs uppercase tracking-wide text-gray-400">
+                    Topic
+                  </div>
+
+                  <div className="mt-2 text-xl font-semibold">
+                    AI-Native Research Systems
+                  </div>
+
+                </div>
+
+                <div className="mt-6 grid grid-cols-2 gap-3">
+
+                  <div className="rounded-xl bg-gray-100 p-4">
+                    <div className="text-2xl font-bold">
+                      12
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Papers
+                    </div>
+                  </div>
+
+                  <div className="rounded-xl bg-gray-100 p-4">
+                    <div className="text-2xl font-bold">
+                      53
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Evidence
+                    </div>
+                  </div>
+
+                  <div className="rounded-xl bg-gray-100 p-4">
+                    <div className="text-2xl font-bold">
+                      18
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Knowledge Links
+                    </div>
+                  </div>
+
+                  <div className="rounded-xl bg-gray-100 p-4">
+                    <div className="text-2xl font-bold">
+                      4
+                    </div>
+                    <div className="text-xs text-gray-500">
+                      Draft Versions
+                    </div>
+                  </div>
+
                 </div>
 
                 <div className="mt-8">
 
-                  <div className="font-semibold">
-                    Retrieved Sources
+                  <div className="text-sm font-medium text-gray-500">
+                    KNOWLEDGE FLOW
                   </div>
 
-                  <div className="mt-3 space-y-2 text-sm">
+                  <div className="mt-6 flex items-center justify-center">
 
-                    {step >= 1 && (
-                      <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        className="rounded-lg bg-gray-100 p-3"
-                      >
-                        ✓ MemGPT (2024)
-                      </motion.div>
-                    )}
+                    <div className="space-y-3">
 
-                    {step >= 2 && (
-                      <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        className="rounded-lg bg-gray-100 p-3"
-                      >
-                        ✓ GraphRAG (2024)
-                      </motion.div>
-                    )}
+                      <div className="rounded-full border px-5 py-2 text-center">
+                        Literature
+                      </div>
 
-                    {step >= 3 && (
-                      <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        className="rounded-lg bg-gray-100 p-3"
-                      >
-                        ✓ Voyager (2023)
-                      </motion.div>
-                    )}
+                      <div className="text-center text-gray-400">
+                        ↓
+                      </div>
+
+                      <div className="rounded-full border px-5 py-2 text-center">
+                        Evidence
+                      </div>
+
+                      <div className="text-center text-gray-400">
+                        ↓
+                      </div>
+
+                      <div className="rounded-full border px-5 py-2 text-center">
+                        Knowledge
+                      </div>
+
+                      <div className="text-center text-gray-400">
+                        ↓
+                      </div>
+
+                      <div className="rounded-full bg-black px-5 py-2 text-center text-white">
+                        Output
+                      </div>
+
+                    </div>
 
                   </div>
 
@@ -120,12 +216,12 @@ export default function WorkspacePreview() {
 
               </div>
 
-              {/* Agent */}
+              {/* Agent Workspace */}
 
               <div className="rounded-2xl border p-6">
 
                 <div className="text-sm font-medium text-gray-500">
-                  AGENT EXECUTION
+                  AGENT WORKSPACE
                 </div>
 
                 <div className="mt-6 space-y-4">
@@ -144,8 +240,14 @@ export default function WorkspacePreview() {
 
                   <StepCard
                     icon={<Network size={18} />}
-                    title="Knowledge Graph Update"
+                    title="Cross-Paper Analysis"
                     active={step >= 3}
+                  />
+
+                  <StepCard
+                    icon={<Network size={18} />}
+                    title="Knowledge Graph Update"
+                    active={step >= 4}
                   />
 
                   <StepCard
@@ -156,135 +258,41 @@ export default function WorkspacePreview() {
 
                 </div>
 
-                {/* Graph */}
+                <div className="mt-10 rounded-xl bg-gray-50 p-5">
 
-                <div className="mt-10">
-
-                  <div className="text-sm font-medium text-gray-500">
-                    KNOWLEDGE GRAPH
+                  <div className="font-semibold">
+                    Latest Output
                   </div>
 
-                  <div className="mt-6 flex items-center justify-center">
+                  <div className="mt-3 flex flex-wrap gap-2 text-xs">
 
-                    <div className="space-y-3">
+                    <span className="rounded-full bg-blue-100 px-2 py-1">
+                      12 Papers
+                    </span>
 
-                      <motion.div
-                        animate={{
-                          scale: [1, 1.05, 1],
-                        }}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 3,
-                        }}
-                        className="rounded-full border px-4 py-2 text-center"
-                      >
-                        Memory
-                      </motion.div>
+                    <span className="rounded-full bg-purple-100 px-2 py-1">
+                      53 Evidence Nodes
+                    </span>
 
-                      <div className="text-center text-gray-400">
-                        ↕
-                      </div>
-
-                      <motion.div
-                        animate={{
-                          scale: [1, 1.08, 1],
-                        }}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 4,
-                        }}
-                        className="rounded-full border px-4 py-2 text-center"
-                      >
-                        RAG
-                      </motion.div>
-
-                      <div className="text-center text-gray-400">
-                        ↕
-                      </div>
-
-                      <motion.div
-                        animate={{
-                          scale: [1, 1.05, 1],
-                        }}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 5,
-                        }}
-                        className="rounded-full border px-4 py-2 text-center"
-                      >
-                        Agent
-                      </motion.div>
-
-                    </div>
+                    <span className="rounded-full bg-green-100 px-2 py-1">
+                      Draft Updated
+                    </span>
 
                   </div>
 
-                </div>
+                  <p className="mt-4 text-sm leading-7 text-gray-600">
 
-              </div>
+                    Cross-paper synthesis completed.
 
-              {/* Output */}
+                    Evidence from 12 papers has been linked
+                    into the research object and incorporated
+                    into the latest draft.
 
-              <div className="rounded-2xl border p-6">
+                  </p>
 
-                <div className="text-sm font-medium text-gray-500">
-                  RESEARCH OUTPUT
-                </div>
-
-                <div className="mt-6 rounded-xl bg-gray-50 p-5">
-
-                  {step < 4 ? (
-                    <motion.div
-                      animate={{
-                        opacity: [0.4, 1, 0.4],
-                      }}
-                      transition={{
-                        repeat: Infinity,
-                        duration: 1.5,
-                      }}
-                      className="text-sm text-gray-500"
-                    >
-                      Agent is generating report...
-                    </motion.div>
-                  ) : (
-                    <>
-                      <div className="font-semibold">
-                        Key Insight
-                      </div>
-
-                      <div className="mt-3 flex flex-wrap gap-2 text-xs">
-
-                        <span className="rounded-full bg-blue-100 px-2 py-1">
-                          12 Papers
-                        </span>
-
-                        <span className="rounded-full bg-purple-100 px-2 py-1">
-                          42 Citations
-                        </span>
-
-                        <span className="rounded-full bg-green-100 px-2 py-1">
-                          Graph Updated
-                        </span>
-
-                      </div>
-
-                      <p className="mt-4 text-sm leading-7 text-gray-600">
-                        Persistent memory enables AI agents
-                        to retain important findings across
-                        sessions, improving reasoning
-                        consistency, evidence reuse and
-                        long-horizon task execution.
-                      </p>
-
-                      <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        className="mt-4 rounded-lg bg-green-50 p-3 text-sm text-green-700"
-                      >
-                        ✓ Report Generated Successfully
-                      </motion.div>
-                    </>
-                  )}
+                  <div className="mt-4 rounded-lg bg-green-50 p-3 text-sm text-green-700">
+                    ✓ Draft Updated Successfully
+                  </div>
 
                 </div>
 

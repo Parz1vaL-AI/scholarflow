@@ -33,7 +33,7 @@ export default function ResearchOutput() {
             <div className="border-b pb-8">
 
               <div className="text-sm text-gray-500">
-                Generated Research Report
+                Generated Research Package
               </div>
 
               <h3 className="mt-3 text-4xl font-bold">
@@ -58,7 +58,7 @@ export default function ResearchOutput() {
             <div className="mt-10">
 
               <h4 className="text-2xl font-semibold">
-                Executive Summary
+                Research Outcome
               </h4>
 
               <p className="mt-4 leading-8 text-gray-700">
@@ -149,30 +149,32 @@ export default function ResearchOutput() {
 
             </div>
 
-            {/* Workflow */}
+            {/* Research Assets */}
 
             <div className="mt-12 rounded-3xl bg-gray-50 p-8">
 
               <h4 className="text-2xl font-semibold">
-                Research Workflow
+                Research Assets Generated
               </h4>
 
               <div className="mt-8 flex flex-col items-center gap-4">
 
                 <div className="rounded-xl border bg-white px-6 py-3">
-                  Literature Retrieval
+                  Literature Library
+                </div>
+
+                <div className="text-sm text-gray-500">
+                  12 linked research papers
                 </div>
 
                 <div>↓</div>
 
                 <div className="rounded-xl border bg-white px-6 py-3">
-                  Cross-Paper Analysis
+                  Evidence Repository
                 </div>
 
-                <div>↓</div>
-
-                <div className="rounded-xl border bg-white px-6 py-3">
-                  Evidence Synthesis
+                <div className="text-sm text-gray-500">
+                  53 extracted evidence nodes
                 </div>
 
                 <div>↓</div>
@@ -181,10 +183,18 @@ export default function ResearchOutput() {
                   Knowledge Graph
                 </div>
 
+                <div className="text-sm text-gray-500">
+                  18 connected concepts and findings
+                </div>
+
                 <div>↓</div>
 
                 <div className="rounded-xl border bg-white px-6 py-3">
-                  Scientific Writing
+                  Research Draft
+                </div>
+
+                <div className="text-sm text-gray-500">
+                  Survey and synthesis report generated
                 </div>
 
               </div>
@@ -200,15 +210,18 @@ export default function ResearchOutput() {
               </h4>
 
               <p className="mt-6 leading-8 text-gray-700">
-                Scientific knowledge emerges through the synthesis
-                of evidence across multiple studies.
+                Research knowledge becomes significantly
+                more valuable when literature, evidence,
+                reasoning processes and generated outputs
+                remain connected within the same workspace.
 
                 <br />
                 <br />
 
-                By linking literature, evidence, insights and
-                generated outputs, ScholarFlow supports a
-                transparent and traceable research workflow.
+                ScholarFlow enables knowledge accumulation
+                across research sessions, allowing evidence
+                and insights to be continuously reused,
+                verified and expanded over time.
               </p>
 
             </div>

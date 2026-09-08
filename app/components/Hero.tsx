@@ -52,8 +52,6 @@ export default function Hero() {
             evidence-grounded scientific outputs.
             <br />
             <br />
-            Persistent memory, retrieval and knowledge graphs
-            work together to support long-horizon research workflows.
           </p>
 
           <motion.div
