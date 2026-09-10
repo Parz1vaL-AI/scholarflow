@@ -42,13 +42,6 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="#research-output"
-                  className="transition-colors hover:text-black"
-                >
-                  Output
-                </a>
-
-                <a
                   href="#architecture"
                   className="transition-colors hover:text-black"
                 >

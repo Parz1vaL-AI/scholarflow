@@ -2,7 +2,6 @@
 import Hero from "./components/Hero";
 import WorkspacePreview from "./components/WorkspacePreview";
 import DemoCaseSection from "./components/DemoCaseSection";
-import ResearchOutput from "./components/ResearchOutput";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -29,12 +28,6 @@ export default function Home() {
               Case Study
             </a>
 
-            <a
-              href="#research-output"
-              className="rounded-full px-3 py-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-black"
-            >
-              Output
-            </a>
 
             <a
               href="#architecture"
@@ -64,7 +57,6 @@ export default function Home() {
         <Hero />
         <WorkspacePreview />
         <DemoCaseSection />
-        <ResearchOutput />
         <Footer />
       </main>
     </>
